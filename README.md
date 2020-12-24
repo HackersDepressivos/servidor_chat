@@ -1,7 +1,7 @@
 # servidor_chat
 
 
-Pra fazer o teste você pode abrir uma porta utilizando o netcat e fazer a conexão.
+Para fazer o teste você pode abrir uma porta utilizando o netcat e fazer a conexão.
 
 NÃO SOU PROGRAMADOR.
 
