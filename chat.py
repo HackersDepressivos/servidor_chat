@@ -10,7 +10,7 @@ try: #//BLOCO DE CÓDIGO
 
 
     while True: #QUANDO FOR VERDADE, OU SEJA, O CHAT SEMPRE VAI FICAR ABERTO - LOOP INFINITO
-        client_udp.sendto(raw_input("Digite sua mensagem: "), ("127.0.0.1", 6050)) #//ESTAMOS ENVIANDO UMA MENSAGEM PARA O SERVIDOR 127.0.0.1 NA PORTA 123
+        client_udp.sendto(raw_input("Digite sua mensagem: "), ("127.0.0.1", 123)) #//ESTAMOS ENVIANDO UMA MENSAGEM PARA O SERVIDOR 127.0.0.1 NA PORTA 123
         msg, IP = client_udp.recvfrom(1024)# // DIVIDINDO A SAIDA DO PROGRAMA (MSG & IP)
 
         print "Mensagem: " + msg + "Amigo: " + IP[0] + "\n"#//PRINTANDO NA TELA AS MENSAGENS TROCADAS
