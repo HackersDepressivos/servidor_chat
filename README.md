@@ -5,4 +5,4 @@ Para fazer o teste você pode abrir uma porta utilizando o netcat e fazer a cone
 
 NÃO SOU PROGRAMADOR.
 
-FIQUE A VONTADE PARA ODIFICAR O PROGRAMA. :)
+FIQUE A VONTADE PARA MODIFICAR O PROGRAMA. :)
